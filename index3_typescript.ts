@@ -1,4 +1,4 @@
-import * as readlineSync from 'readline-sync';
+import readlineSync from 'readline-sync';
 
 const numero1: number = Number(readlineSync.question("Digite o primeiro número:\n"));
 const numero2: number = Number(readlineSync.question("Digite o segundo número:\n"));
