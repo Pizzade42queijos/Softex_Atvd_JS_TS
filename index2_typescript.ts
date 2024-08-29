@@ -1,4 +1,4 @@
-import * as readlineSync from 'readline-sync';
+import readlineSync from 'readline-sync';
 
 console.log(":::Verificador de Pares e Ímpares::::");
 const numero: number = Number(readlineSync.question("Favor informe o valor a ser analisado:\n"));
