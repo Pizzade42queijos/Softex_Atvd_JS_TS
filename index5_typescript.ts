@@ -1,4 +1,4 @@
-import * as readlineSync from 'readline-sync';
+import readlineSync from 'readline-sync';
 
 const tipoIngresso: number = Number(readlineSync.question("Por favor, sinalize o tipo de ingresso desejado:\n(1) VIP\n(2) Standard\n"));
 const compoPipoca: number = Number(readlineSync.question("Agora sinalize o combo de pipoca:\n(1) Sim\n(2) Não\n"));
